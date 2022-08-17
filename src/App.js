@@ -1,15 +1,16 @@
+
 import { Route, Routes } from "react-router";
 import MainNavBar from "./components/shared/navbar/MainNavBar";
-import Home from "./components/home/Home";
+import Intro from "./components/intro/Intro";
 
 
 const App = () => {
   return(
   <>
-    <MainNavBar />
+    {/* <MainNavBar /> */}
   <>  
     <Routes>
-    <Route path="/" element={<Home />} />
+    <Route path="/" element={<Intro />} />
     </Routes>
   </>
   </>

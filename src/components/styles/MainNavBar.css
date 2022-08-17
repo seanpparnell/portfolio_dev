@@ -1,0 +1,42 @@
+.navbar__con {
+  background-color: #181818;
+  color: white;
+  height: 100vh;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  flex:  0.2;
+  z-index: 99;
+  
+  
+}
+
+.logo {
+  text-align: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: black;
+  height: fit-content;
+  
+
+}
+
+.logo > h1 {
+  color:turquoise;
+  text-shadow: -6px 0px fuchsia;
+  font-size: 80px;
+  margin-top: 10px;
+
+}
+
+.logo > h3 {
+  margin-top: -68px;
+  font-size: 1.3em;
+}
+
+.logo > p {
+  font-size: .75em;
+}
